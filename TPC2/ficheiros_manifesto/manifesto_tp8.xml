@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE manifesto SYSTEM "manifesto.dtd">
+<manifesto>
+    <meta>
+        <id>PRC2019::A74033::TP2</id>
+        <título>Converter Ficheiro de prémios nobel em JSON para Turtle</título>
+        <subtítulo></subtítulo>
+        <dinício>19 de Fevereiro de 2019</dinício>
+        <dfim>20 de Fevereiro de 2019</dfim>
+        <supervisor>
+            <nome>José Carlos Ramalho</nome>
+            <email>jcr@di.uminho.pt</email>
+            <website>http://www.di.uminho.pt/~jcr</website>
+        </supervisor>
+    </meta>
+    <equipe>
+        <elemento>
+            <id>A74033</id>
+            <nome>João Pedro Carvalho Gomes</nome>
+            <email>a74033@alunos.uminho.pt</email>
+            <website>https://www.facebook.com/JoaoGomes2110</website>
+            <foto path="eu.jpeg"/> 
+        </elemento>
+    </equipe>
+    <resumo>
+        <para>
+            Trabalho de casa realizado no ambito da unidade curricular de processamento e representação do conhecimento do 4º ano do Mestrado Integrado em 
+            Engenharia Informática.   
+        </para>
+        <para>
+            Neste trabalho foi pedido para efectuar a conversão de um ficheiro em <i>JSON</i> para <i>Turtle</i>.
+        </para>
+        <para>
+            De modo a realizar a conversão criei um script em <i>NodeJS</i> para converter a informação em <i>JSON</i> em <i>XML</i>, posto isto estruturei um 
+            modelo/ontologia, com auxilio do <b>Protegé</b>.
+        </para>
+        <para>
+            Com o modelo definido, criei uma <i>Stylesheet</i> de modo a transformar o ficheiro <i>XML</i> em <i>Turtle</i>.
+        </para>
+        <para>
+            Estrutura da pasta de Entrega:     
+        </para>
+        <para>
+            -Stylesheet e Ficheiro <i>Turtle</i> gerado pela mesma na pasta -> Stylesheet_e_Resultado;
+        </para>
+        <para>
+            -Ficheiro Criado a partir do <b>Protegé</b> na pasta -> FicheiroCriadoNoProtegé;
+        </para>
+        <para>
+            -Junção dos dois ficheiros a partir da linha de comando, sendo este o resultado final na pasta -> ResultadoDoCat;
+        </para>
+        <para>
+            - Script node na pasta inicial chamado json2xml.js
+        </para>
+    </resumo>
+    <resultados>
+        <resultado path="https://github.com/JoaoGomes2110/prc_2019_TPC">Github de Tpc's de PRC</resultado></resultados>
+</manifesto>
