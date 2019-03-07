@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE manifesto SYSTEM "manifesto.dtd">
+<manifesto>
+    <meta>
+        <id>PRC2019::A74033::TP3</id>
+        <título>Modelação de uma Ontologia</título>
+        <subtítulo></subtítulo>
+        <dinício>26 de Fevereiro de 2019</dinício>
+        <dfim>10 de Março de 2019</dfim>
+        <supervisor>
+            <nome>José Carlos Ramalho</nome>
+            <email>jcr@di.uminho.pt</email>
+            <website>http://www.di.uminho.pt/~jcr</website>
+        </supervisor>
+    </meta>
+    <equipe>
+        <elemento>
+            <id>A74033</id>
+            <nome>João Pedro Carvalho Gomes</nome>
+            <email>a74033@alunos.uminho.pt</email>
+            <website>https://www.facebook.com/JoaoGomes2110</website>
+            <foto path="eu.jpeg"/> 
+        </elemento>
+    </equipe>
+    <resumo>
+        <para>
+            Trabalho de casa realizado no ambito da unidade curricular de processamento e representação do conhecimento do 4º ano do Mestrado Integrado em 
+            Engenharia Informática.   
+        </para>
+        <para>
+            Neste trabalho foi pedido para efectuar a modelação de uma ontologia acerca do turismo de braga.
+        </para>
+        <para>
+            De modo a realizar esta modelação foi utilizado a ferramenta protegé.
+        </para>
+    </resumo>
+    <resultados>
+        <resultado path="https://github.com/JoaoGomes2110/prc_2019_TPC">Github de Tpc's de PRC</resultado></resultados>
+</manifesto>
