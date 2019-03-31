@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE manifesto SYSTEM "manifesto.dtd">
+<manifesto>
+    <meta>
+        <id>PRC2019::A74033::TP6</id>
+        <título>PRC2019::A74033::TP6 </título>
+        <subtítulo></subtítulo>
+        <dinício>26 de Março de 2019</dinício>
+        <dfim>31 de Março de 2019</dfim>
+        <supervisor>
+            <nome>José Carlos Ramalho</nome>
+            <email>jcr@di.uminho.pt</email>
+            <website>http://www.di.uminho.pt/~jcr</website>
+        </supervisor>
+    </meta>
+    <equipe>
+        <elemento>
+            <id>A74033</id>
+            <nome>João Pedro Carvalho Gomes</nome>
+            <email>a74033@alunos.uminho.pt</email>
+            <website>https://www.facebook.com/JoaoGomes2110</website>
+            <foto path="eu.jpeg"/> 
+        </elemento>
+    </equipe>
+    <resumo>
+        <para>
+            Neste trabalho para casa foi pedido que juntassemos a ontologia da aula o conceito de Freguesia.   
+        </para>
+        <para>
+           Foi utilizado o protegé para modelar, e depois um stylesheet xslt para transformar o xml em turtle. 
+        </para>
+        <para>
+            O ficheiro dado na aula em xml já incluia as freguesias o que suscitou alguma duvida, no entanto utilizei a stylesheet nesse ficheiro.
+        </para>
+        <para>
+            O ficheiro dado pelos dados.gov.pt passei do formato xslx para xml com auxilio de um script em node para correr basta, instalar as dependências 
+        </para>
+        <para>
+            Estrutura da pasta de Entrega:     
+        </para>
+        <para>
+            -Stylesheet e Ficheiro <i>Turtle</i> gerado pela mesma na pasta -> Stylesheet_e_Resultado;
+        </para>
+        <para>
+            -Ficheiro Criado a partir do <b>Protegé</b> na pasta -> FicheirosProtegé;
+        </para>
+        <para>
+            -Junção dos dois ficheiros a partir da linha de comando, sendo este o resultado final na pasta -> ResultadoCat;
+        </para>
+        <para>
+            - Script node na pasta inicial chamado xslx2xml.js
+        </para>
+    </resumo>
+    <resultados>
+        <resultado path="https://github.com/JoaoGomes2110/prc_2019_TPC">Github de Tpc's de PRC</resultado></resultados>
+</manifesto>
